@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create Account</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f2f2f2;
+}
+
+.container{
+    background:#fff;
+    width:350px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+label{
+    font-weight:bold;
+    display:block;
+    margin-top:10px;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:20px;
+    border:none;
+    border-radius:5px;
+    background:#4CAF50;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#45a049;
+}
+
+p{
+    text-align:center;
+    margin-top:15px;
+}
+
+a{
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Create Account</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Your Name">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="you@example.com">
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password">
+
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password">
+
+        <button type="submit">Sign Up</button>
+
+        <p>Already have an account?
+            <a href="#">Login here</a>
+        </p>
+    </form>
+</div>
+
+</body>
+</html>
